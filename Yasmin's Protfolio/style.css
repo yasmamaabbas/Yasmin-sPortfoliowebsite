@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    background-color: #1a1a2e;
+    line-height: 1.6;
+}
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #111;
+    position: sticky;
+    top: 0;
+}
+.navbar .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff4c60;
+}
+.navbar .nav-links {
+    display: flex;
+    list-style: none;
+}
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.navbar .nav-links a:hover, 
+.navbar .nav-links .active {
+    color: #ff4c60;
+}
+.hero {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('bg.jpg') no repeat center/cover;
+    text-align: center;
+}
+.hero-content h1 {
+    font-size: 40px;
+    margin-top: 15px;
+}
+.hero-content p {
+    font-size: 18px;
+    margin-top: 8px;
+    color: #ccc;
+}
+.hero-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #ff4c60;
+}
+.bio-mission {
+    padding: 50px;
+    background: #0f3460;
+    text-align: center;
+}
+.bio-mission h2 {
+    margin-bottom: 40px;
+    color: #ff4c60;
+}
+.bio-mission-boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.box {
+    flex: 1;
+    padding: 20px;
+    background-color: #0f0f1f;
+    color: white;
+    border-radius: 8px;
+}
+.short {
+    background-color: #1a1a2e;
+}
+.mission {
+    background-color: #1a1a2e;
+}
+.bio-card {
+    background: #16213e;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+.bio-card:hover {
+    transform: translateY(-8px);
+}
+.bio-card h3 {
+    margin-bottom: 15px;
+    color: #ff4c60;
+}
+.bio-card p {
+    color: #ccc;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.btn {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    background: #0f3460;
+    color: #ff4c60;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn :hover{
+    background: #0f3460;
+}
